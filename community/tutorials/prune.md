@@ -2,7 +2,7 @@
 
 This guide provides comprehensive instructions on how to prune docker images on your server automatically using cron.
 
-Due to how Docker works, when pulling new images, the old ones are not removed. This can lead to a large amount of disk space being used up by old images and eventually cause your server to run out of disk space.
+Due to how Docker works, when pulling new images, the old ones are not removed. This will eventually lead to a large amount of disk space being used up by dangling images and eventually cause your server to run out of disk space.
 
 ## Crontab Configuration
 
