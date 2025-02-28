@@ -107,6 +107,7 @@ module.exports = {
                     children: [
                         '/community/config/nodes/add_node.md',
                         '/community/tutorials/artisan.md',
+                        '/community/tutorials/prune.md',
                     ],
                 },
                 {
