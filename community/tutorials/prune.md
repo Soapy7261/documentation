@@ -9,7 +9,7 @@ Due to how Docker works, when pulling new images, the old ones are not removed. 
 To automatically prune docker images, you'll want to open your crontab using `sudo crontab -e` and then paste the line below.
 
 ::: tip
-If you want, you can add -a to end of the command to remove all unused images, not just dangling ones.
+If you want, you can add -a to end of the command to remove *all* unused images, not just dangling ones.
 
 This may be particularly useful if you remove/change images from your yolks often.
 
